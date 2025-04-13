@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.NEXT_URI,
+    origin: "https://chatify-y9kd.onrender.com",
     credentials: true,
   })
 );
