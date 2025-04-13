@@ -20,11 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-<<<<<<< HEAD
-    origin: "https://chatify-y9kd.onrender.com",
-=======
     origin: "http://localhost:5173",
->>>>>>> parent of c8fbca2 (PORT)
     credentials: true,
   })
 );
